@@ -32,49 +32,14 @@
         .navicon img{
           max-height: 100%;
         }
-        #saic_icon{
+
+        .icons{
           opacity: 1;
           filter: alpha(opacity=100);
+          max-width: 100%;
+          max-height: 100%;
         }
-        #saic_icon:hover{
-          opacity: 0.4;
-          filter: alpha(opacity=30);
-        }
-        #ida_icon{
-          opacity: 1;
-          filter: alpha(opacity=100);
-        }
-        #ida_icon:hover{
-          opacity: 0.4;
-          filter: alpha(opacity=30);
-        }
-        #xetus_icon{
-          opacity: 1;
-          filter: alpha(opacity=100);
-        }
-        #xetus_icon:hover{
-          opacity: 0.4;
-          filter: alpha(opacity=30);
-        }
-        #github_icon{
-          top: 0;
-          bottom: 0;
-          margin: auto;
-          opacity:1;
-          filter: alpha(opacity=100);
-        }
-        #github_icon:hover{
-          opacity: 0.4;
-          filter: alpha(opacity=30);
-        }
-        #linkedin_icon{
-          top: 0;
-          bottom: 0;
-          margin: auto;
-          opacity:1;
-          filter: alpha(opacity=100);
-        }
-        #linkedin_icon:hover{
+        .icons:hover{
           opacity: 0.4;
           filter: alpha(opacity=30);
         }
@@ -120,10 +85,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                      <a href="https://www.linkedin.com/in/ericqtran" target="_blank"><img src="img/linkedin_icon.png" id="linkedin_icon"></a>
+                      <a href="https://www.linkedin.com/in/ericqtran" target="_blank"><img src="img/linkedin_icon.png" id="linkedin_icon" class="icons"></a>
                     </li>
                     <li>
-                      <a href="https://github.com/EricQTran" target="_blank"><img src="img/github_icon.png" id="github_icon"></a>
+                      <a href="https://github.com/EricQTran" target="_blank"><img src="img/github_icon.png" id="github_icon" class="icons"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -174,8 +139,8 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h1>Education</h1>
                     <hr class="light">
-
-                    <img src="img/ucsd_logo.png" id="ucsd_logo" height="100" width="100">
+                    <a href="http://cse.ucsd.edu/" target="_blank" ><img src="img/ucsd_logo.png" id="ucsd_logo" height="200" width="200" class="icons"></a>
+                    <hr class="light">
                     <h2 class="section-heading" id="educationTitle">School: UC San Diego<br>Attended: 2013 to 2017<br>Degree: Bachelors of Science<br>Major: Computer Engineering</h2>
                     <hr class="light">
                     <p class="text-faded"></p>
@@ -199,7 +164,7 @@
                 <div class="col-lg-3 col-md-6 text-center">
                   <div class="service-box">
                       <a href="http://www.saic.com/" target="_blank">
-                        <img src="img/saic_icon.png" alt="saic_icon" id="saic_icon" class="icon">
+                        <img src="img/saic_icon.png" alt="saic_icon" id="saic_icon" class="icons">
                       </a>
                       <h3>SAIC</h3>
                       <h4>Junior Java Developer</h4>
@@ -210,7 +175,7 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <a href="http://www.idanalytics.com/" target="_blank">
-                          <img src="img/ida_icon.png" alt="ida_icon" id="ida_icon" class="icon">
+                          <img src="img/ida_icon.png" alt="ida_icon" id="ida_icon" class="icons">
                         </a>
                         <h3>ID Analytics</h3>
                         <h4>Software Engineer Intern</h4>
@@ -221,7 +186,7 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <a href="http://www.xetusone.com/" target="_blank">
-                          <img src="img/xetus_icon.jpg" alt="xetus_icon" id="xetus_icon" class="icon">
+                          <img src="img/xetus_icon.jpg" alt="xetus_icon" id="xetus_icon" class="icons">
                         </a>
                         <h3>Xetus</h3>
                         <h4>Software Development Intern</h4>
