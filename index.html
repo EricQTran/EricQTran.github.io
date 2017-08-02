@@ -60,7 +60,25 @@
           top: 0;
           bottom: 0;
           margin: auto;
+          opacity:1;
+          filter: alpha(opacity=100);
         }
+        #github_icon:hover{
+          opacity: 0.4;
+          filter: alpha(opacity=30);
+        }
+        #linkedin_icon{
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          opacity:1;
+          filter: alpha(opacity=100);
+        }
+        #linkedin_icon:hover{
+          opacity: 0.4;
+          filter: alpha(opacity=30);
+        }
+
     </style>
 
     <!-- Bootstrap Core CSS -->
@@ -131,7 +149,7 @@
             <div class="header-content-inner">
                 <img src="img/profile.jpg" alt="profile" id="profile">
                 <hr>
-                <h1 id="homeHeading">Hello there! I'm Eric.</h1>
+                <h1 id="homeHeading">Hello, World! I'm Eric.</h1>
                 <hr>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">↓</a>
             </div>
@@ -154,7 +172,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class="section-heading" id="educationTitle">B.S. Computer Engineering from UC San Diego</h1>
+                    <h1>Education</h1>
+                    <hr class="light">
+
+                    <img src="img/ucsd_logo.png" id="ucsd_logo" height="100" width="100">
+                    <h2 class="section-heading" id="educationTitle">School: UC San Diego<br>Attended: 2013 to 2017<br>Degree: Bachelors of Science<br>Major: Computer Engineering</h2>
                     <hr class="light">
                     <p class="text-faded"></p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">↓</a>
@@ -247,10 +269,6 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
-
-    <!-- LinkedIn Embed -->
-    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-    <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/ericqtran" data-format="click" data-related="false"></script>
 
 </body>
 
