@@ -29,6 +29,13 @@
           max-width: 100%;
           max-height: 100%;
         }
+        .navicon{
+          margin: 0;
+          padding-top: 0;
+        }
+        .navicon img{
+          max-height: 100%;
+        }
     </style>
 
     <!-- Bootstrap Core CSS -->
@@ -69,14 +76,15 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Experience</a>
+                        <a class="page-scroll" href="#education">Education</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
+                        <a class="page-scroll" href="#services">Experience</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -95,7 +103,7 @@
                 <hr>
                 <h1 id="homeHeading">Hello there! I'm Eric.</h1>
                 <hr>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">↓</a>
             </div>
         </div>
     </header>
@@ -104,10 +112,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Software Engineer</h2>
+                    <h1 class="section-heading">I am a Software Engineer currently living in sunny San Diego.</h1>
                     <hr class="light">
                     <p class="text-faded"></p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Checkout My Experience!</a>
+                    <a href="#education" class="page-scroll btn btn-default btn-xl sr-button">↓</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-info" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h1 class="section-heading">B.S. Computer Engineering from UC San Diego</h1>
+                    <hr class="light">
+                    <p class="text-faded"></p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">↓</a>
                 </div>
             </div>
         </div>
@@ -126,7 +146,9 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                   <div class="service-box">
-                      <img src="img/saic_icon.png" alt="saic_icon" id="saic_icon" class="icon">
+                      <a href="http://www.saic.com/" target="_blank">
+                        <img src="img/saic_icon.png" alt="saic_icon" id="saic_icon" class="icon">
+                      </a>
                       <h3>SAIC</h3>
                       <h4>Junior Java Developer</h4>
                       <h5>August 2017 - Present</h5>
@@ -135,7 +157,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <img src="img/ida_icon.png" alt="ida_icon" id="ida_icon" class="icon">
+                        <a href="http://www.idanalytics.com/" target="_blank">
+                          <img src="img/ida_icon.png" alt="ida_icon" id="ida_icon" class="icon">
+                        </a>
                         <h3>ID Analytics</h3>
                         <h4>Software Engineer Intern</h4>
                         <h5>April 2016 - December 2016</h5>
@@ -144,7 +168,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <img src="img/xetus_icon.jpg" alt="xetus_icon" id="xetus_icon" class="icon">
+                        <a href="http://www.xetusone.com/" target="_blank">
+                          <img src="img/xetus_icon.jpg" alt="xetus_icon" id="xetus_icon" class="icon">
+                        </a>
                         <h3>Xetus</h3>
                         <h4>Software Development Intern</h4>
                         <h5>June 2013 - August 2013</h5>
@@ -163,14 +189,14 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg text-center">
                     <h2 class="section-heading">Contact</h2>
                     <hr class="primary">
 
                 </div>
 
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:erictran@gmail.com">erictran@gmail.com</a></p>
                 </div>
